@@ -1,32 +1,32 @@
 [
 	{
-		"name": "Burgers",
+		"title": "Burgers",
 		"price": "49.95€",
-		"image": ""
+		"image": "https://placeimg.com/400/225/arch"
 	},
 	{
-		"name": "Burgers",
+		"title": "Burgers",
 		"price": "49.95€",
-		"image": ""
+		"image": "https://placeimg.com/400/225/arch"
 	},
 	{
-		"name": "Burgers",
+		"title": "Burgers",
 		"price": "49.95€",
-		"image": ""
+		"image": "https://placeimg.com/400/225/arch"
 	},
 	{
-		"name": "Burgers",
+		"title": "Burgers",
 		"price": "49.95€",
-		"image": ""
+		"image": "https://placeimg.com/400/225/arch"
 	},
 	{
-		"name": "Burgers",
+		"title": "Burgers",
 		"price": "49.95€",
-		"image": ""
+		"image": "https://placeimg.com/400/225/arch"
 	},
 	{
-		"name": "Burgers",
+		"title": "Burgers",
 		"price": "49.95€",
-		"image": ""
+		"image": "https://placeimg.com/400/225/arch"
 	}
 ]

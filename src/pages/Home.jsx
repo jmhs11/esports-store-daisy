@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
+import BestSellers from '../components/BestSellers';
 import SpecialOffer from '../components/SpecialOffer';
 
 const Home = () => {
@@ -133,6 +134,7 @@ const Home = () => {
 				</SwiperSlide>
 			</Swiper>
 			<SpecialOffer />
+			<BestSellers />
 		</>
 	);
 };
