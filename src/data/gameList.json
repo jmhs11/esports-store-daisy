@@ -1,17 +1,17 @@
 [
 	{
 		"id": 1,
-		"name": "Burgers",
+		"title": "Burgers",
 		"description": "",
 		"shortDescription": "",
 		"inlineImage": "",
-		"image": "",
+		"image": "https://placeimg.com/400/225/arch",
 		"cover": "",
-		"price": "",
-		"category": "",
+		"price": "56.76€",
+		"category": "bestsellers",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": [],
+		"plaftorms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	}
 ]
