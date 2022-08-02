@@ -5,7 +5,7 @@ const first3Games = data.slice(0, 3);
 
 const SpecialOffer = () => {
 	return (
-		<div className='mx-4 mb-4'>
+		<div className='m-4'>
 			<div className='flex justify-between items-center mb-2'>
 				<h2>SPECIAL OFFERS</h2>
 				<button className='btn btn-secondary'>VIEW MORE</button>

@@ -1,6 +1,7 @@
 import { Autoplay, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import { useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import BestSellers from '../components/BestSellers';
@@ -8,6 +9,10 @@ import GameFilter from '../components/GameFilter';
 import SpecialOffer from '../components/SpecialOffer';
 
 const Home = () => {
+	const [background, setBackground] = useState(
+		'linear-gradient(rgba(3, 6, 22, 0.75) 0%, rgb(3, 6, 22) 100%), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg")'
+	);
+
 	return (
 		<>
 			<Swiper
@@ -21,16 +26,24 @@ const Home = () => {
 				pagination={{ clickable: true, hideOnClick: false }}
 				autoHeight={true}
 				grabCursor={true}
-				onSlideChange={() => console.log('slide change')}
-				onSwiper={swiper => console.log(swiper)}
+				onSlideChange={() => {
+					console.log('slide change');
+					setBackground(
+						`linear-gradient(rgba(3, 6, 22, 0.75) 0%, rgb(3, 6, 22) 100%), ${'url("https://placeimg.com/400/225/arch")'}`
+					);
+				}}
 				style={{
 					overflow: 'hidden',
-					height: '380px'
+					height: '380px',
+					transition: 'background 1s',
+					backgroundColor: 'rgba(3, 6, 22, 1)',
+					backgroundImage: background,
+					backgroundSize: 'cover',
+					backgroundPosition: 'center'
 				}}
 			>
 				<SwiperSlide>
-					<div className='hero h-96 bg-[url(https://esports-store.kuuro.dev/assets/images/league-of-legends-background.png)]'>
-						<div className='hero-overlay bg-opacity-0 bg-base-100'></div>
+					<div className='hero h-96'>
 						<div className='hero-content text-center text-neutral-content'>
 							<div className='max-w-md'>
 								<h1 className='mb-5 text-4xl font-bold'>League of Legends</h1>
@@ -50,8 +63,7 @@ const Home = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='hero h-96 bg-[url(https://esports-store.kuuro.dev/assets/images/league-of-legends-background.png)]'>
-						<div className='hero-overlay bg-opacity-0 bg-base-100'></div>
+					<div className='hero h-96'>
 						<div className='hero-content text-center text-neutral-content'>
 							<div className='max-w-md'>
 								<h1 className='mb-5 text-4xl font-bold'>League of Legends</h1>
@@ -71,8 +83,7 @@ const Home = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='hero h-96 bg-[url(https://esports-store.kuuro.dev/assets/images/league-of-legends-background.png)]'>
-						<div className='hero-overlay bg-opacity-0 bg-base-100'></div>
+					<div className='hero h-96'>
 						<div className='hero-content text-center text-neutral-content'>
 							<div className='max-w-md'>
 								<h1 className='mb-5 text-4xl font-bold'>League of Legends</h1>
@@ -92,8 +103,7 @@ const Home = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='hero h-96 bg-[url(https://esports-store.kuuro.dev/assets/images/league-of-legends-background.png)]'>
-						<div className='hero-overlay bg-opacity-0 bg-base-100'></div>
+					<div className='hero h-96'>
 						<div className='hero-content text-center text-neutral-content'>
 							<div className='max-w-md'>
 								<h1 className='mb-5 text-4xl font-bold'>League of Legends</h1>
@@ -113,8 +123,7 @@ const Home = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='hero h-96 bg-[url(https://esports-store.kuuro.dev/assets/images/league-of-legends-background.png)]'>
-						<div className='hero-overlay bg-opacity-0 bg-base-100'></div>
+					<div className='hero h-96'>
 						<div className='hero-content text-center text-neutral-content'>
 							<div className='max-w-md'>
 								<h1 className='mb-5 text-4xl font-bold'>League of Legends</h1>
