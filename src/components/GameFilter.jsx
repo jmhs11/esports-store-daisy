@@ -19,7 +19,7 @@ const GameFilter = () => {
 			<select
 				onChange={handleOnChange}
 				defaultValue={'popular'}
-				className='select select-bordered max-w-xs md:hidden mb-4'
+				className='select select-bordered max-w-xs md:hidden'
 			>
 				<option value={'popular'}>Popular</option>
 				<option value={'bestsellers'}>BestSellers</option>
@@ -28,8 +28,15 @@ const GameFilter = () => {
 
 			<div className='flex flex-col gap-2'>
 				{gameList.map(game => (
-					<div key={game.id} className='grid grid-cols-4 rounded'>
-						<img src={game.image} alt={game.title} />
+					<div
+						key={game.id}
+						className='grid grid-cols-4 rounded first-of-type:mt-4'
+					>
+						<img
+							src={game.image}
+							alt={game.title}
+							className='overflow-hidden rounded-l'
+						/>
 						<div className='flex gap-2 justify-around items-center border-2 border-l-0 col-start-2 col-end-5 rounded rounded-l-none'>
 							<h3 className='text-xl font-bold'>
 								{game.title}
