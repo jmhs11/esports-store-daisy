@@ -9,9 +9,9 @@
 		"cover": "",
 		"price": "56.76€",
 		"category": "specialoffers",
-		"hasTrademark": true,
+		"hasTrademark": false,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -24,9 +24,9 @@
 		"cover": "",
 		"price": "56.76€",
 		"category": "popular",
-		"hasTrademark": true,
+		"hasTrademark": false,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -41,7 +41,7 @@
 		"category": "popular",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -56,7 +56,7 @@
 		"category": "popular",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -71,7 +71,7 @@
 		"category": "popular",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -84,9 +84,9 @@
 		"cover": "",
 		"price": "56.76€",
 		"category": "bestsellers",
-		"hasTrademark": true,
+		"hasTrademark": false,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -101,7 +101,7 @@
 		"category": "bestsellers",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -116,7 +116,7 @@
 		"category": "bestsellers",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -129,9 +129,9 @@
 		"cover": "",
 		"price": "56.76€",
 		"category": "specialoffers",
-		"hasTrademark": true,
+		"hasTrademark": false,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -146,7 +146,7 @@
 		"category": "specialoffers",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -161,7 +161,7 @@
 		"category": "specialoffers",
 		"hasTrademark": true,
 		"tags": [],
-		"plaftorms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "mac", "linux"],
 		"launchDate": ""
 	}
 ]
