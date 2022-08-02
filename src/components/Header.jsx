@@ -28,6 +28,9 @@ const Header = ({ children }) => {
 						</li>
 						<div className='divider m-0'></div>
 						<li>
+							<a>Notifications</a>
+						</li>
+						<li>
 							<a>Settings</a>
 						</li>
 						<div className='divider m-0'></div>
