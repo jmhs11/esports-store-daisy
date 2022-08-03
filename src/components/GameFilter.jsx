@@ -1,6 +1,9 @@
 import { DotsHorizontalIcon } from '@heroicons/react/outline';
 import { useEffect, useState } from 'react';
 import gameListData from '../data/gameList.json';
+import LinuxIcon from './LinuxIcon';
+import MacOSIcon from './MacOSIcon';
+import WindowsIcon from './WindowsIcon';
 
 const filterDefaultValue = 'popular';
 
@@ -21,7 +24,7 @@ const GameFilter = () => {
 			<select
 				onChange={handleOnChange}
 				defaultValue={filterDefaultValue}
-				className='select select-bordered max-w-xs md:hidden'
+				className='select select-bordered max-w-xs'
 			>
 				<option value={'popular'}>Popular</option>
 				<option value={'bestsellers'}>BestSellers</option>
@@ -39,14 +42,46 @@ const GameFilter = () => {
 							alt={game.title}
 							className='overflow-hidden rounded-l'
 						/>
-						<div className='flex gap-2 justify-around items-center border-2 border-l-0 col-start-2 col-end-5 rounded rounded-l-none'>
-							<h3 className='text-xl font-bold'>
+						<div className='grid grid-cols-3 px-4 md:px-6 md:grid-cols-4 gap-2 items-center border-2 border-l-0 col-start-2 col-end-5 rounded rounded-l-none'>
+							<h3 className='text-sm md:text-xl font-bold'>
 								{game.title}
 								{game.hasTrademark && <sup className='text-xs'> TM</sup>}
 							</h3>
-							<p>{game.price}</p>
-							<div className='dropdown dropdown-top dropdown-end'>
-								<label tabIndex='0' className='btn btn-ghost btn-circle'>
+							<div className='gap-2 hidden md:flex'>
+								{game.platforms.map(platform => {
+									switch (platform) {
+										case 'windows':
+											return (
+												<WindowsIcon
+													key={platform}
+													className='h-6 w-6 text-white'
+												/>
+											);
+										case 'macos':
+											return (
+												<MacOSIcon
+													key={platform}
+													className='h-6 w-6 text-white'
+												/>
+											);
+										case 'linux':
+											return (
+												<LinuxIcon
+													key={platform}
+													className='h-6 w-6 text-white'
+												/>
+											);
+										default:
+											return null;
+									}
+								})}
+							</div>
+							<p className='text-center'>{game.price}</p>
+							<div className='dropdown dropdown-top dropdown-end md:mx-auto'>
+								<label
+									tabIndex='0'
+									className='btn btn-ghost btn-circle justify-end'
+								>
 									<DotsHorizontalIcon className='h-6 w-6' />
 								</label>
 								<ul

@@ -11,7 +11,7 @@
 		"category": "specialoffers",
 		"hasTrademark": false,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "macos"],
 		"launchDate": ""
 	},
 	{
@@ -26,7 +26,7 @@
 		"category": "popular",
 		"hasTrademark": false,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -41,7 +41,7 @@
 		"category": "popular",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["macos", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -56,7 +56,7 @@
 		"category": "popular",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows"],
 		"launchDate": ""
 	},
 	{
@@ -71,7 +71,7 @@
 		"category": "popular",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["macos"],
 		"launchDate": ""
 	},
 	{
@@ -86,7 +86,7 @@
 		"category": "bestsellers",
 		"hasTrademark": false,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["linux"],
 		"launchDate": ""
 	},
 	{
@@ -101,7 +101,7 @@
 		"category": "bestsellers",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows"],
 		"launchDate": ""
 	},
 	{
@@ -116,7 +116,7 @@
 		"category": "bestsellers",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "macos", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -131,7 +131,7 @@
 		"category": "specialoffers",
 		"hasTrademark": false,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "macos", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -146,7 +146,7 @@
 		"category": "specialoffers",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "macos", "linux"],
 		"launchDate": ""
 	},
 	{
@@ -161,7 +161,7 @@
 		"category": "specialoffers",
 		"hasTrademark": true,
 		"tags": [],
-		"platforms": ["windows", "mac", "linux"],
+		"platforms": ["windows", "macos", "linux"],
 		"launchDate": ""
 	}
 ]
