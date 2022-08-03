@@ -2,9 +2,11 @@ import { DotsHorizontalIcon } from '@heroicons/react/outline';
 import { useEffect, useState } from 'react';
 import gameListData from '../data/gameList.json';
 
+const filterDefaultValue = 'popular';
+
 const GameFilter = () => {
 	const [gameList, setGameList] = useState([]);
-	const [filter, setFilter] = useState();
+	const [filter, setFilter] = useState(filterDefaultValue);
 
 	const handleOnChange = e => {
 		setFilter(e.target.value);
@@ -18,7 +20,7 @@ const GameFilter = () => {
 		<div className='m-4'>
 			<select
 				onChange={handleOnChange}
-				defaultValue={'popular'}
+				defaultValue={filterDefaultValue}
 				className='select select-bordered max-w-xs md:hidden'
 			>
 				<option value={'popular'}>Popular</option>
