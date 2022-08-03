@@ -3,30 +3,30 @@
 		"id": 1,
 		"title": "League of Legends",
 		"description": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
-		"backgroundImage": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg"
+		"backgroundImage": "/images/lol.jpg"
 	},
 	{
 		"id": 2,
 		"title": "Fortnite",
 		"description": "Fortnite is at heart a battle royale game, land in the island with your friends and go to magistral victory.",
-		"backgroundImage": "https://cdn2.unrealengine.com/01-cinematicstill002-3840x2160-3840x2160-749659c3127e.jpg"
+		"backgroundImage": "/images/fortnite.jpg"
 	},
 	{
 		"id": 3,
 		"title": "Full Guys",
 		"description": "Fall Guys es un party royale gratis y multiplataforma donde los jugadores compiten en delirantes carreras de obstáculos formadas por rondas cada vez más emocionantes hasta que una sola persona se alza con la victoria.",
-		"backgroundImage": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-01-1920x1080-063acacc6f1a.jpg"
+		"backgroundImage": "/images/fullguys.jpg"
 	},
 	{
 		"id": 4,
 		"title": "Counter Strike: Global Offensive",
 		"description": "Counter-Strike: Global Offensive (CS:GO) is a first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation. It is the sequel to Counter-Strike: Condition Zero (CS:CZ), and the third game in the Counter-Strike series.",
-		"backgroundImage": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1641233427"
+		"backgroundImage": "/images/csgo.jpg"
 	},
 	{
 		"id": 5,
 		"title": "Overwatch",
 		"description": "Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment for Microsoft Windows, PlayStation 4, and Xbox One. It was released on May 31, 2016 for Windows, PlayStation 4, and Xbox One.",
-		"backgroundImage": "https://wallpapercave.com/wp/wp1809699.jpg"
+		"backgroundImage": "/images/overwatch.jpg"
 	}
 ]
